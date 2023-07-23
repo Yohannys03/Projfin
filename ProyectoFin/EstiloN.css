@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: familia de fuentes: 'Inter', sans-serif;
+
+}
+Body {
+  background:#AECFBA;
+}
+#menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+#menu ul li {
+  float: left;
+  
+  
+}
+#menu a{
+  color: #486966;
+  text-decoration: none;
+  display: block;
+  padding: 12px 26px;
+  font-family: familia de fuentes: 'Inter', sans-serif;
+  font-size: 18px;
+  
+}
+#menu{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bcd4c7+0,93bba8+22,7dad97+33,72a68f+50,679f85+67,3e5c4f+82,0f0b0c+100 */
+background: rgb(188,212,199); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgb(188,212,199) 0%, rgb(147,187,168) 22%, rgb(125,173,151) 33%, rgb(114,166,143) 50%, rgb(103,159,133) 67%, rgb(62,92,79) 82%, rgb(15,11,12) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgb(188,212,199) 0%,rgb(147,187,168) 22%,rgb(125,173,151) 33%,rgb(114,166,143) 50%,rgb(103,159,133) 67%,rgb(62,92,79) 82%,rgb(15,11,12) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgb(188,212,199) 0%,rgb(147,187,168) 22%,rgb(125,173,151) 33%,rgb(114,166,143) 50%,rgb(103,159,133) 67%,rgb(62,92,79) 82%,rgb(15,11,12) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bcd4c7', endColorstr='#0f0b0c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+  width: 100%;
+  height: 52px;
+  }
+  .barra{
+    color: #005C53;
+    padding: 15px;
+  }
+ #menu a:hover{
+    color: #D6D58E;
+    background: rgb(0, 0, 0.2);
+    animation: 10s ms 1;
+  }
+
+  @keyframes ms
+    0% {transform: scale(1.6);
+      opacity: 0;
+    }
+/*******Cards*****/
+section {
+  align-content: center;
+
+}
+section h2{
+  text-align: center;
+  padding: 28px;
+  text-shadow: text-shadow: 2px 2px;
+  color:#10403B ;
+ ;
+}
+img {
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+}
+section p{
+color:#4C5958;
+ text-align: justify-all;
+padding: 6%;
+font-size:21px;
+}
+footer {
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  font-size: 20px;
+ color:#311240;
+}
+
+

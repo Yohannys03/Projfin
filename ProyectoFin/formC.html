@@ -1,0 +1,59 @@
+
+       
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title> formulario de contacto</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet"  href="Estilocontacto.css">
+    <link rel="stylesheet"  href="fontello.css">
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap" rel="stylesheet">
+    <enlace rel="preconectar" href="https://fonts.googleapis.com">
+    <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+    <enlace href="https: //fonts.googleapis.com/css2? family= Inter & display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body>
+		<header>
+        <nav id="menu">
+        	<ul>
+            <li><a href="Menuprinc.html">Inicio</a></li>
+             <li class="barra">|</li>
+            <li><a href="productos.html">Servicio</a></li>
+             <li class="barra">|</li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+          </ul>
+        </nav>
+
+        
+    </header>
+      <h1> Contactenos </h1>
+
+       <section class="form-registro">
+     
+ <?php include(formc.php); ?>
+      <?php include(db.php); ?>
+     
+
+      	<h2> Complete el siguiente campo </h2>
+      		<form action="formc.php" method="POST" >
+      			<p> Nombre: <input class="control" type="text" name="datn"> </p>
+      		<p> Telefono: <input class="control" type="text" name="dattel"> 	</p>
+       	 	<p> Correo : <input class="control" type="email" name="datcor"> </p>
+      		<p> Mensaje: <input class="control" type="mensaje" name="datmensaje"> 	</p>
+        	<p> <input class="boton" type="submit" value="Enviar"></p>
+       
+
+       		</form>
+       </section>
+	</body>
+
+
+<footer>
+	 <p>Proyecto realizado por Kevin</p>
+</footer>
+
+</html>
+
